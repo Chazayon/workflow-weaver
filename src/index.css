@@ -2,39 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Book Production Dashboard – Romance Fantasy Theme
-   Rich, dark palette with warm golden/amber accents and deep jewel tones.
+/* Book Production Dashboard – Deep Slate / Cyan / Violet Theme
+   Deep navy backgrounds with cyan primary and violet accents.
    All colors are HSL. */
 
 @layer base {
   :root {
-    --background: 30 15% 97%;
-    --foreground: 20 25% 10%;
+    --background: 220 25% 96%;
+    --foreground: 222 40% 12%;
 
-    --card: 30 20% 99%;
-    --card-foreground: 20 25% 10%;
+    --card: 220 25% 99%;
+    --card-foreground: 222 40% 12%;
 
-    --popover: 30 20% 99%;
-    --popover-foreground: 20 25% 10%;
+    --popover: 220 25% 99%;
+    --popover-foreground: 222 40% 12%;
 
-    --primary: 32 80% 50%;
-    --primary-foreground: 30 10% 98%;
+    --primary: 189 95% 43%;
+    --primary-foreground: 220 30% 98%;
 
-    --secondary: 25 20% 92%;
-    --secondary-foreground: 20 25% 15%;
+    --secondary: 258 90% 66%;
+    --secondary-foreground: 260 10% 98%;
 
-    --muted: 25 15% 93%;
-    --muted-foreground: 20 10% 45%;
+    --muted: 220 20% 92%;
+    --muted-foreground: 220 15% 45%;
 
-    --accent: 340 45% 55%;
-    --accent-foreground: 340 10% 98%;
+    --accent: 258 90% 66%;
+    --accent-foreground: 260 10% 98%;
 
     --destructive: 0 72% 51%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 25 15% 88%;
-    --input: 25 15% 88%;
-    --ring: 32 80% 50%;
+    --border: 220 20% 88%;
+    --input: 220 20% 88%;
+    --ring: 189 95% 43%;
 
     --radius: 0.625rem;
 
@@ -42,63 +42,63 @@
     --success-foreground: 150 10% 98%;
     --warning: 38 92% 50%;
     --warning-foreground: 38 10% 10%;
-    --info: 215 70% 55%;
-    --info-foreground: 215 10% 98%;
+    --info: 189 95% 43%;
+    --info-foreground: 189 10% 98%;
 
-    --sidebar-background: 25 18% 95%;
-    --sidebar-foreground: 20 20% 20%;
-    --sidebar-primary: 32 80% 50%;
-    --sidebar-primary-foreground: 30 10% 98%;
-    --sidebar-accent: 25 15% 90%;
-    --sidebar-accent-foreground: 20 25% 15%;
-    --sidebar-border: 25 15% 88%;
-    --sidebar-ring: 32 80% 50%;
+    --sidebar-background: 220 22% 94%;
+    --sidebar-foreground: 222 35% 15%;
+    --sidebar-primary: 189 95% 43%;
+    --sidebar-primary-foreground: 220 30% 98%;
+    --sidebar-accent: 258 60% 92%;
+    --sidebar-accent-foreground: 258 60% 30%;
+    --sidebar-border: 220 20% 88%;
+    --sidebar-ring: 189 95% 43%;
   }
 
   .dark {
-    --background: 20 18% 7%;
-    --foreground: 30 15% 92%;
+    --background: 222 45% 7%;
+    --foreground: 215 20% 92%;
 
-    --card: 20 16% 10%;
-    --card-foreground: 30 15% 92%;
+    --card: 222 40% 10%;
+    --card-foreground: 215 20% 92%;
 
-    --popover: 20 16% 10%;
-    --popover-foreground: 30 15% 92%;
+    --popover: 222 40% 10%;
+    --popover-foreground: 215 20% 92%;
 
-    --primary: 32 80% 50%;
-    --primary-foreground: 20 10% 5%;
+    --primary: 189 95% 43%;
+    --primary-foreground: 222 45% 5%;
 
-    --secondary: 20 14% 16%;
-    --secondary-foreground: 30 15% 90%;
+    --secondary: 258 90% 66%;
+    --secondary-foreground: 260 10% 98%;
 
-    --muted: 20 12% 15%;
-    --muted-foreground: 25 10% 55%;
+    --muted: 222 30% 14%;
+    --muted-foreground: 215 15% 55%;
 
-    --accent: 340 45% 55%;
-    --accent-foreground: 340 10% 98%;
+    --accent: 258 90% 66%;
+    --accent-foreground: 260 10% 98%;
 
     --destructive: 0 62% 35%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 20 12% 18%;
-    --input: 20 12% 18%;
-    --ring: 32 80% 50%;
+    --border: 222 28% 18%;
+    --input: 222 28% 18%;
+    --ring: 189 95% 43%;
 
     --success: 152 55% 38%;
     --success-foreground: 150 10% 98%;
     --warning: 38 85% 48%;
     --warning-foreground: 38 10% 10%;
-    --info: 215 65% 50%;
-    --info-foreground: 215 10% 98%;
+    --info: 189 90% 40%;
+    --info-foreground: 189 10% 98%;
 
-    --sidebar-background: 20 18% 9%;
-    --sidebar-foreground: 30 12% 85%;
-    --sidebar-primary: 32 80% 50%;
-    --sidebar-primary-foreground: 20 10% 5%;
-    --sidebar-accent: 20 14% 14%;
-    --sidebar-accent-foreground: 30 12% 85%;
-    --sidebar-border: 20 12% 16%;
-    --sidebar-ring: 32 80% 50%;
+    --sidebar-background: 222 42% 9%;
+    --sidebar-foreground: 215 18% 85%;
+    --sidebar-primary: 189 95% 43%;
+    --sidebar-primary-foreground: 222 45% 5%;
+    --sidebar-accent: 258 40% 18%;
+    --sidebar-accent-foreground: 258 30% 85%;
+    --sidebar-border: 222 28% 16%;
+    --sidebar-ring: 189 95% 43%;
   }
 }
 
@@ -119,7 +119,7 @@
 
 @layer utilities {
   .glow-primary {
-    box-shadow: 0 0 20px -5px hsl(var(--primary) / 0.3);
+    box-shadow: 0 0 20px -5px hsl(189 95% 43% / 0.3);
   }
 
   .gradient-primary {
